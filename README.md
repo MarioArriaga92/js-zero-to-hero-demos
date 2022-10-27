@@ -7,4 +7,4 @@ Refer to the following examples:
 1. [Simple Vanilla JS 1](./simple-vanilla-js-1/README.md)
 
 ## Contributing
-If you wish to add more examples or noticed a problem feel free to [Make a Pull Request](https://makeapullrequest.com/) or 
+If you wish to add more examples or noticed a problem feel free to [Make a Pull Request](https://makeapullrequest.com/).
