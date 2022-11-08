@@ -1,9 +1,10 @@
 let toggle = true;
-let originalText = document.querySelector('h1').textContent;
-let currentText = '';
+console.log('toggle is ' + toggle)
+
+const originalText = document.querySelector('h1').textContent;
 
 function userClick() {
-  // get div
+  // get h1
   let myHeader = document.querySelector('h1');
 
   // add shake
@@ -14,10 +15,11 @@ function userClick() {
 
   // switch toggle state
   toggle = !toggle;
+  console.log('toggle is ' + toggle)
+  
   if (toggle) {
-    currentText = originalText;
+    myHeader.textContent = originalText;
   } else {
-    currentText = 'JavaScript is Cool!';
+    myHeader.textContent = 'JavaScript is Cool!';
   }
-  myHeader.textContent = currentText;
 }
