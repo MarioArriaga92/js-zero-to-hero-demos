@@ -1,0 +1,26 @@
+{
+  "name": "dev-tools",
+  "version": "0.0.1",
+  "description": "development tools walkthrough",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test script yet'",
+    "prettify": "prettier --write index.js",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "start:production": "http-server dist/"
+  },
+  "author": "Mario Arriaga",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.8.0",
+    "rimraf": "^3.0.2"
+  }
+}
