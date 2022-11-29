@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-react": "^7.31.11",
+    "parcel": "^2.8.0",
+    "postcss": "^8.4.19",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "format-number": "^3.0.0",
+    "react": "^18.2.0",
+    "react-async-hook": "^4.0.0",
+    "react-dom": "^18.2.0"
+  }
+}
