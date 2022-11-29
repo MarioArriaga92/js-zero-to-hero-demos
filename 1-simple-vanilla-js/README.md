@@ -8,8 +8,7 @@ This simple example is a variation from the content available in [mdn web docs >
 
 [/scripts/demo.js](./scripts/demo.js) is a javascript file that initializes the `toggle` variable to `true`, the `originalText` to the text content of the `h1` element (`"My Text"`) and the `currentText` variable to `''` **(empty string)**. It also defines the `userClick` function **(it wont get invoked until user clicks on the button)** that gets the header, adds the "animated" CSS class to apply the "shake" animation and switches the toggle state so original text of the `h1` element gets replaced with "JavaScript is Cool!"
 
-## See it in action
-To see it in action:
+## See It In Action
 1. Clone the project locally **(refer to [Microsoft Learn > Azure > Developer > JavaScript > Clone and use a GitHub repository in Visual Studio Code > Clone repository](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette#clone-repository) if needed)**
 2. Right click on [index.html](index.html) from the [VS Code (File) Explorer](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer) and choose "Copy Path"
 3. Open your preferred Internet Browser, paste the path and press enter
