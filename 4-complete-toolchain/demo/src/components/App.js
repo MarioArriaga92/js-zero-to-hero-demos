@@ -38,11 +38,11 @@ export default function App() {
   document.title = `${hazards} potential HAZARDS ${hazards > 0 ? '😱' : '👍'}`;
 
   const results = data.result.near_earth_objects[day];
-  return (
+  return ( 
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> near misses
+        <strong>{results.length}</strong> flying pigs
       </p>
       <hr></hr>
       {results
